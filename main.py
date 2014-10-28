@@ -41,7 +41,7 @@ class MainHandler(webapp2.RequestHandler):
         B=station('Ballston-MU',allTrains)
         T=station('Tysons Corner',allTrains)
     
-        Ballston=[train for train in B.get_trains() if train.get_dest()=='Wiehle-Reston East']
+        Ballston=[train for train in B.get_trains() if train.get_dest()=='Wiehle']
         Tysons= [train for train in T.get_trains() if train.get_dest()=='Largo']   
         
         
