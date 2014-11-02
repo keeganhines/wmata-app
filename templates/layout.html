@@ -22,7 +22,7 @@
     <div data-role="collapsible">
       <h1>Ballston</h1>
       {% for train in Ballston  %}
-      <p> {{train.get_line()}} Line  to {{train.get_dest()}} leaving in {{train.get_minutes()}} minutes </p>
+      <p> {{train.get_line()}} Line  to {{train.get_dest()}} leaving in <b>{{train.get_minutes()}}</b> minutes </p>
       {% endfor %}
     </div>
   </div>
